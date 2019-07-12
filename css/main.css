@@ -1,0 +1,112 @@
+.header {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.header a:link {
+    text-decoration: none;
+}
+.img1 {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    height: 660px;
+}
+.img2 {
+    position: absolute;
+    width: 60%;
+    top: 0px;
+    right: 0px;
+    z-index: 10;
+}
+h4 > a {
+    text-decoration: none;
+    position: absolute;
+    color: #4a5d8b !important;
+    z-index: 10;
+    top: 30px;
+    left: 30px;
+    padding: 5px 18px;
+    border-radius: 20px;
+    transition: .4s ease-in-out;
+}
+h4 {
+    margin: 0 !important;
+}
+h4 > a:hover {
+    background-color: #b3eaff;
+    cursor: pointer;
+}
+ul {
+    position: absolute;
+    z-index: 99;
+    right: 140px;
+    top: 20px;
+}
+li {
+    float: left;
+    list-style: none;
+    padding: 5px 18px;
+    margin-left: 90px;
+    transition: .3s ease-in-out;
+    border-radius: 20px;
+}
+li > a {
+    color: #4a5d8b !important;
+}
+li:hover {
+    background: #b3eaff;
+    cursor: pointer;
+}
+.bl:hover {
+  background: #ffffff;
+  cursor: pointer;
+}
+.container {
+    position: absolute;
+    z-index: 10;
+    width: 50%;
+    top: 300px;
+    left: 50px;
+}
+h1 {
+    color: #4a5d8b !important;
+}
+p {
+    width: 60%;
+    color: #4a5d8b;
+}
+button {
+    border: none;
+    background: #ffffff;
+    padding: 10px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: .2s ease-in-out;
+}
+button:hover {
+    color: #4a5d8b;
+    background: #b3eaff;
+    border: 2px solid #ffffff;
+    padding: 9px 16px;
+    box-shadow: 1px 1px 15px #ffffff;
+}
+ol {
+    position: absolute;
+    z-index: 99;
+    right: 60px;
+    bottom: 10px;
+}
+ol > li {
+    margin: 5px;
+    padding: 7px;
+    background-color: #4a5d8b;
+    color: #ffffff;
+    line-height: 1;
+}
+ol > li:hover {
+    background-color: #b3eaff;
+    color: #4a5d8b;
+    cursor: pointer;
+}
